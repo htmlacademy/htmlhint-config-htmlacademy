@@ -1,0 +1,23 @@
+{
+  "name": "htmlhint-config-htmlacademy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "htmlhint test/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htmlacademy/htmlhint-config-htmlacademy.git"
+  },
+  "keywords": [],
+  "author": "Nikolai Shabalin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htmlacademy/htmlhint-config-htmlacademy/issues"
+  },
+  "homepage": "https://github.com/htmlacademy/htmlhint-config-htmlacademy#readme",
+  "devDependencies": {
+    "htmlhint": "^0.14.2"
+  }
+}
