@@ -1,12 +1,10 @@
 {
-  // Doctype and Head
   "doctype-first": true,
   "doctype-html5": true,
   "head-script-disabled": true,
   "style-disabled": true,
   "title-require": true,
 
-  // Attributes
   "attr-lowercase":  ["viewBox", "preserveAspectRatio"],
   "attr-no-duplication": true,
   "attr-no-unnecessary-whitespace": true,
@@ -16,7 +14,6 @@
   "alt-require": true,
   "input-requires-label": false,
 
-  // Tags
   "tags-check": false,
   "tag-pair": true,
   "tag-self-close": false,
@@ -25,17 +22,14 @@
   "src-not-empty": true,
   "href-abs-or-rel": false,
 
-  // Id
   "id-class-ad-disabled": true,
   "id-class-value": false,
   "id-unique": false,
   "id-unique": true,
 
-  // Inline
   "inline-script-disabled": true,
   "inline-style-disabled": false,
 
-  // Formatting
   "space-tab-mixed-disabled": "space",
   "spec-char-escape": true
 }
