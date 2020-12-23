@@ -1,7 +1,7 @@
 {
   "name": "htmlhint-config-htmlacademy",
   "version": "1.0.0",
-  "description": "",
+  "description": "HTML Academy HTMLHint config",
   "main": "index.js",
   "scripts": {
     "test": "htmlhint test/*.html"
