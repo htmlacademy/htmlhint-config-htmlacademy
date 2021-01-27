@@ -10,7 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/htmlacademy/htmlhint-config-htmlacademy.git"
   },
-  "keywords": [],
+  "keywords": [
+    "HTMLAcademy",
+    "HTML Academy",
+    "code",
+    "quality",
+    "check",
+    "checker",
+    "verify",
+    "enforce",
+    "hint",
+    "HTMLHint"
+  ],
   "author": "Nikolai Shabalin",
   "license": "ISC",
   "bugs": {
