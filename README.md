@@ -1,6 +1,7 @@
 # HTMLHint Config for HTML Academy CODEGUIDE
 
 [![npm version](https://img.shields.io/npm/v/htmlhint-config-htmlacademy.svg)](https://www.npmjs.com/package/htmlhint-config-htmlacademy)
+[![test](https://github.com/htmlacademy/htmlhint-config-htmlacademy/actions/workflows/test.yml/badge.svg)](https://github.com/htmlacademy/htmlhint-config-htmlacademy/actions/workflows/test.yml)
 [![license](https://img.shields.io/npm/l/htmlhint-config-htmlacademy.svg)](https://github.com/htmlacademy/htmlhint-config-htmlacademy/blob/main/LICENSE)
 
 [HTMLHint](https://htmlhint.com) configuration for HTML markup validation according to [HTML Academy codeguide](https://codeguide.academy).
