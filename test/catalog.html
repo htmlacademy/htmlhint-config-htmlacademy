@@ -15,8 +15,9 @@
           <img src="./img/logo_device.svg" width="163" height="35" alt="логотип интернет-магазина Девайс">
         </a>
 
-        <form class="nav__search search" action="https://echo.htmlacademy.ru" method="get" id="header-search">
-          <input class="search__input" name="header-search" type="search" placeholder="Поиск по сайту" aria-label="Поиск по сайту">
+        <form class="nav__search search" action="https://echo.htmlacademy.ru" method="get">
+          <label class="visually-hidden" for="search-catalog">Поиск по сайту</label>
+          <input class="search__input" id="search-catalog" name="header-search" type="search" placeholder="Поиск по сайту">
           <button class="search__button" type="submit">Найти</button>
         </form>
 
@@ -108,15 +109,15 @@
                   </div>
 
                   <div class="wrapper-range-price">
-                    <label class="range__price range__price--min" id="min-price"  aria-label="установить цену от (управление стрелкой вверх-вниз)">
+                    <label class="range__price range__price--min" for="input-min-price" aria-label="установить цену от (управление стрелкой вверх-вниз)">
                       от
-                    <input name="min-price" type="number" value="0" step="100" min="0" max="5000">
                     </label>
+                    <input id="input-min-price" name="min-price" type="number" value="0" step="100" min="0" max="5000">
 
-                    <label class="range__price range__price--max" id="max-price"  aria-label="установить цену до (управление стрелкой вверх-вниз)">
+                    <label class="range__price range__price--max" for="input-max-price" aria-label="установить цену до (управление стрелкой вверх-вниз)">
                       до
-                      <input name="max-price" type="number" value="5000" step="100" min="100" max="5000">
                     </label>
+                    <input id="input-max-price" name="max-price" type="number" value="5000" step="100" min="100" max="5000">
                   </div>
                 </div>
             </fieldset>
