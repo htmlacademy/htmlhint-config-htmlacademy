@@ -1,34 +1,27 @@
 {
   "name": "htmlhint-config-htmlacademy",
-  "version": "1.1.0",
-  "description": "HTML Academy HTMLHint config",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "HTMLHint Config for HTML Academy CODEGUIDE",
+  "license": "MIT",
+  "author": "Nikolai Shabalin",
+  "repository": "htmlacademy/htmlhint-config-htmlacademy",
+  "keywords": [
+    "htmlhint",
+    "config",
+    "htmlacademy",
+    "codeguide",
+    "linter"
+  ],
+  "files": [
+    ".htmlhintrc"
+  ],
   "scripts": {
     "test": "htmlhint test/*.html"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/htmlacademy/htmlhint-config-htmlacademy.git"
+  "peerDependencies": {
+    "htmlhint": ">=1.8.0"
   },
-  "keywords": [
-    "HTMLAcademy",
-    "HTML Academy",
-    "code",
-    "quality",
-    "check",
-    "checker",
-    "verify",
-    "enforce",
-    "hint",
-    "HTMLHint"
-  ],
-  "author": "Nikolai Shabalin",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/htmlacademy/htmlhint-config-htmlacademy/issues"
-  },
-  "homepage": "https://github.com/htmlacademy/htmlhint-config-htmlacademy#readme",
   "devDependencies": {
-    "htmlhint": "^0.14.2"
+    "htmlhint": "^1.8.0"
   }
 }
