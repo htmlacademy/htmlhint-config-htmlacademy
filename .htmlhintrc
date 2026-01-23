@@ -1,16 +1,22 @@
 {
   "doctype-first": true,
   "doctype-html5": true,
+  "html-lang-require": true,
   "head-script-disabled": true,
   "style-disabled": false,
   "title-require": true,
+  "meta-charset-require": true,
+  "meta-viewport-require": true,
+  "main-require": true,
+  "h1-require": true,
 
-  "attr-lowercase":  ["viewBox", "preserveAspectRatio"],
+  "attr-lowercase": ["viewBox", "preserveAspectRatio"],
   "attr-no-duplication": true,
   "attr-no-unnecessary-whitespace": true,
   "attr-unsafe-chars": true,
   "attr-value-double-quotes": true,
   "attr-value-not-empty": false,
+  "attr-sorted": false,
   "alt-require": true,
   "input-requires-label": true,
 
@@ -30,5 +36,8 @@
   "inline-style-disabled": false,
 
   "space-tab-mixed-disabled": "space",
-  "spec-char-escape": true
+  "spec-char-escape": true,
+
+  "button-type-require": true,
+  "form-method-require": true
 }
