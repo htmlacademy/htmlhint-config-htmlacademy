@@ -16,9 +16,9 @@
           <img src="./img/logo_device.svg" width="163" height="35" alt="логотип интернет-магазина Девайс">
         </a>
 
-        <form class="nav__search search" action="https://echo.htmlacademy.ru" method="get" id="header-search">
-          <input class="search__input" type="search" name="header-search" placeholder="Поиск по сайту"
-                 aria-label="Поиск по сайту" disabled="disabled">
+        <form class="nav__search search" action="https://echo.htmlacademy.ru" method="get">
+          <label class="visually-hidden" for="search-index">Поиск по сайту</label>
+          <input class="search__input" id="search-index" type="search" name="header-search" placeholder="Поиск по сайту" disabled="disabled">
           <button class="search__button" type="submit">Найти</button>
         </form>
 
@@ -358,17 +358,13 @@
       <fieldset>
         <div class="write-us-form__fieldset-imitate">
           <p class="write-us-form__field write-us-form__field--name">
-            <label class="write-us-form__label">
-              Ваше имя:
-              <input class="write-us-form__input" name="user-name" type="text" placeholder="Имя Фамилия">
-            </label>
+            <label class="write-us-form__label" for="user-name">Ваше имя:</label>
+            <input class="write-us-form__input" id="user-name" name="user-name" type="text" placeholder="Имя Фамилия">
           </p>
 
           <p class="write-us-form__field write-us-form__field--email">
-            <label class="write-us-form__label">
-              Ваш e-mail:
-              <input class="write-us-form__input" name="email" type="email" placeholder="email@example.com">
-            </label>
+            <label class="write-us-form__label" for="email">Ваш e-mail:</label>
+            <input class="write-us-form__input" id="email" name="email" type="email" placeholder="email@example.com">
           </p>
 
           <p class="write-us-form__field write-us-form__field--text">
