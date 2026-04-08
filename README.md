@@ -1,41 +1,25 @@
-# HTMLHint Config for HTML Academy CODEGUIDE
+# HTMLHint Config for HTML Academy Codeguide
 
 [![npm version](https://img.shields.io/npm/v/htmlhint-config-htmlacademy.svg)](https://www.npmjs.com/package/htmlhint-config-htmlacademy)
 [![test](https://github.com/htmlacademy/htmlhint-config-htmlacademy/actions/workflows/test.yml/badge.svg)](https://github.com/htmlacademy/htmlhint-config-htmlacademy/actions/workflows/test.yml)
 [![license](https://img.shields.io/npm/l/htmlhint-config-htmlacademy.svg)](https://github.com/htmlacademy/htmlhint-config-htmlacademy/blob/main/LICENSE)
 
-[HTMLHint](https://htmlhint.com) configuration for HTML markup validation according to [HTML Academy codeguide](https://codeguide.academy).
+[HTMLHint](https://htmlhint.com) configuration for HTML markup validation according to [HTML Academy Codeguide](https://codeguide.academy).
 
-## Usage
+## Requirements
 
-### Main method (copy config)
+- Node.js >= 24
+- HTMLHint >= 1.8.0
 
-1. Copy `.htmlhintrc` to project root
-2. Install HTMLHint:
-
-```bash
-npm install -D htmlhint
-```
-
-3. Add script to `package.json`:
-
-```json
-{
-  "scripts": {
-    "lint:html": "htmlhint src/**/*.html"
-  }
-}
-```
-
-4. Customize rules in `.htmlhintrc` as needed
-
-### Alternative method (via npm)
-
-Install the package:
+## Installation
 
 ```bash
 npm install -D htmlhint htmlhint-config-htmlacademy
 ```
+
+## Usage
+
+### Via npm package (recommended)
 
 Add script to `package.json`:
 
@@ -47,7 +31,22 @@ Add script to `package.json`:
 }
 ```
 
-Benefit: automatic config updates via npm.
+Config updates automatically via npm.
+
+### Copy config
+
+1. Copy `.htmlhintrc` to project root
+2. Add script to `package.json`:
+
+```json
+{
+  "scripts": {
+    "lint:html": "htmlhint src/**/*.html"
+  }
+}
+```
+
+3. Customize rules in `.htmlhintrc` as needed
 
 ## Rules
 
@@ -110,10 +109,6 @@ Benefit: automatic config updates via npm.
 | `inline-style-disabled` | `false` | Inline styles allowed |
 | `space-tab-mixed-disabled` | `"space"` | Spaces only for indentation |
 | `spec-char-escape` | `true` | Special characters must be escaped |
-
-## Requirements
-
-- HTMLHint >=1.8.0
 
 ## Links
 
