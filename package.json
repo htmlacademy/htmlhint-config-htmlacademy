@@ -3,7 +3,10 @@
   "version": "2.0.0",
   "description": "HTMLHint Config for HTML Academy CODEGUIDE",
   "license": "MIT",
-  "author": "Nikolai Shabalin",
+  "engines": {
+    "node": ">=24"
+  },
+  "author": "HTML Academy <mail@htmlacademy.dev>",
   "repository": "htmlacademy/htmlhint-config-htmlacademy",
   "keywords": [
     "htmlhint",
@@ -19,9 +22,9 @@
     "test": "htmlhint test/*.html"
   },
   "peerDependencies": {
-    "htmlhint": ">=1.8.0"
+    "htmlhint": ">=1.9.0"
   },
   "devDependencies": {
-    "htmlhint": "^1.8.0"
+    "htmlhint": "^1.9.0"
   }
 }
