@@ -2,29 +2,36 @@
   "name": "htmlhint-config-htmlacademy",
   "version": "2.0.0",
   "description": "HTMLHint Config for HTML Academy CODEGUIDE",
-  "license": "MIT",
-  "engines": {
-    "node": ">=24"
-  },
-  "author": "HTML Academy <mail@htmlacademy.dev>",
-  "repository": "htmlacademy/htmlhint-config-htmlacademy",
   "keywords": [
-    "htmlhint",
+    "codeguide",
     "config",
     "htmlacademy",
-    "codeguide",
+    "htmlhint",
     "linter"
   ],
+  "license": "MIT",
+  "author": {
+    "name": "HTML Academy",
+    "email": "mail@htmlacademy.dev",
+    "url": "https://htmlacademy.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htmlacademy/htmlhint-config-htmlacademy.git"
+  },
   "files": [
     ".htmlhintrc"
   ],
   "scripts": {
     "test": "htmlhint test/*.html"
   },
+  "devDependencies": {
+    "htmlhint": "^1.9.2"
+  },
   "peerDependencies": {
     "htmlhint": ">=1.9.0"
   },
-  "devDependencies": {
-    "htmlhint": "^1.9.0"
+  "engines": {
+    "node": ">=24"
   }
 }
