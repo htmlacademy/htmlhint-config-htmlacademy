@@ -1,6 +1,6 @@
 # Changelog
 
-## 2.0.0
+## 2.0.0 — 2026-05-20
 
 - Update HTMLHint to 1.8.0
 - `html-lang-require`: `<html>` must have `lang` attribute
